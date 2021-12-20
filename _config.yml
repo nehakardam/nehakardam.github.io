@@ -1,27 +1,27 @@
 # Site
-repository: sproogen/resume-theme
-favicon: images/favicon.ico
+repository:                 sproogen/resume-theme
+favicon:                    images/favicon.ico
 
 # Content configuration version
-version: 2
+version:                    2
 
 # Personal info
-name: Neha Kardam
-title: Phd Student at UW Seattle
-email: nehakrdm@uw.edu
-website: https://nehakardam.github.io/
+name:                       Neha Kardam
+title:                      Phd Student at UW Seattle
+email:                      nehakrdm@uw.edu
+website:                    https://nehakardam.github.io/
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode:                   false
 
 # Social links
-github_username:  nehakardam
-linkedin_username: https://www.linkedin.com/in/neha-kardam-a3535555/
+github_username:            nehakardam
+linkedin_username:          https://www.linkedin.com/in/neha-kardam-a3535555/
 
 # About Section
-# about_title: About Me
-about_profile_image: images/Neha_June2021.png
-about_content: | # this will include new lines to allow paragraphs
+# about_title:              About Me
+about_profile_image:        images/Neha_June2021.png
+about_content:              | # this will include new lines to allow paragraphs
   Hi there! I'm a second-year PhD student in the Department of Electrical and Computer Engineering at the University of Washington, Seattle.
 
   I am an interdisciplinary researcher with experience in using statistics, predictive analytics, mixed methods research and applying machine learning techniques in data driven research.
@@ -30,145 +30,137 @@ about_content: | # this will include new lines to allow paragraphs
   I am passionate about using NLP in engineering education research (EER), with the goal of improving pedagogy and diversity in engineering education.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title:                  Projects # Title for the section
+    layout:                 list # Type of content section (list/text)
     content:
-      - layout: top-middle
-        title: Exploring Natural Language Processing to Analyze Short Answer Survey Data in Engineering Education Research
-        link: github.com/nehakardam
-        # link_text: Project Website
+      - layout:             top-middle
+        title:              Exploring Natural Language Processing to Analyze Short Answer Survey Data in Engineering Education Research
+        link:               github.com/nehakardam
+        # link_text:        Project Website
         additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
+          - title:          sproogen/modern-resume-theme
+            icon:           fab fa-github
+            url:            github.com/sproogen/modern-resume-theme
+          # - title:        Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon:         fab fa-github
+          #   url:          Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote:              >
 
-        description: | # this will include new lines to allow paragraphs
+        description:        | # this will include new lines to allow paragraphs
           Textual survey data is processed manually, researchers have to invest significant time and effort to evaluating such text survey collections. While in-depth manual research of text survey data yields significant outcomes, some instructors or administrators may benefit from an automated system that can uncover trends and offer broader overviews for selected datasets in less time and resource-efficient ways. This study investigates using Natural Language Processing (Topic modeling: Latent Dirichlet Allocation and Non-negative Matrix Factorization) techniques to extract labels from student short answer survey responses in the context of Engineering.
 
-    content:
-      - layout: top-middle
-        title: Using Natural Language Processing techniques in Engineering Education Research
-        link: github.com/nehakardam
-        # link_text: Project Website
+      - layout:             top-middle
+        title:              Using Natural Language Processing techniques in Engineering Education Research
+        link:               github.com/nehakardam
+        # link_text:        Project Website
         additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
+          - title:          sproogen/modern-resume-theme
+            icon:           fab fa-github
+            url:            github.com/sproogen/modern-resume-theme
+          # - title:        Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon:         fab fa-github
+          #   url:          Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote:              >
 
         description:
           A single dense output layer and a multi-layer dense output layer model is used to predict peer support labels based on cooperative learning framework. Sentiment analysis is also conducted to determine students' feelings toward faculty support using NLPTK, Textblob, and Flair.
 
-      content:
-        - layout: top-middle
-          title: Predicting students’ engagement using machine learning techniques
-          link: github.com/nehakardam
-          # link_text: Project Website
+        - layout:           top-middle
+          title:            Predicting students’ engagement using machine learning techniques
+          link:             github.com/nehakardam
+          # link_text:      Project Website
           additional_links:
-            - title:  sproogen/modern-resume-theme
-              icon: fab fa-github
-              url: github.com/sproogen/modern-resume-theme
-            # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            #   icon: fab fa-github
-            #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-          quote: >
+            - title:        sproogen/modern-resume-theme
+              icon:         fab fa-github
+              url:          github.com/sproogen/modern-resume-theme
+            # - title:      Github page for project (eg. sproogen/modern-resume-theme)
+            #   icon:       fab fa-github
+            #   url:        Link to project (eg. sproogen.github.io/modern-resume-theme)
+          quote:            >
 
           description:
             Machine learning methods are used to forecast students' academic support and course level engagement in both traditional and remote learning environments. The Ordinary Least Squares method of linear regression is used as a baseline for comparison with other models (Ridge, Lasso, Elastic, GLR Poisson’s, GLR Gamma, Epsilon SVM, Nu SVM, Stochastic Gradient Descent). The mean square error for the test data serves as the evaluation criterion.
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+  - title:                  Experience # Title for the section
+    layout:                 list # Type of content section (list/text)
     content:
-      - layout: left
-        title: Lake Washington Institute of Technology, Kirkland
-        link: https://www.lwtech.edu/
-        # link_text: boringcompany.com
-        sub_title: Assistant Professor/Dept. Chair
-        caption: March 2018 - Present
-        quote: >
-
-        description: | # this will include new lines to allow paragraphs
+      - layout:             left
+        title:              Lake Washington Institute of Technology, Kirkland
+        link:               https://www.lwtech.edu/
+        # link_text:        boringcompany.com
+        sub_title:          Assistant Professor/Dept. Chair
+        caption:            March 2018 - Present
+        quote:              >
+        description:        | # this will include new lines to allow paragraphs
             •	Responsible for providing leadership toward the achievement of the highest possible level of excellence in teaching, research, and service activities of the department.
             •	Taught PLC’S, Analog and Digital Electronics, Semiconductors, Mechatronics, Data Acquisition System, Microprocessor, Communication, Troubleshooting techniques, and PCB Layout and design.
             •	Responsible for managing the program budget($30k), program review, curriculum design and evaluation.
             •	Presently working on NSF grant ($595,501) to create Open educational resources for the Electronics Technology Program.
 
-    content:
-      - layout: left
-        title: DigiPen Institute of Technology, Redmond
-        link: https://www.lwtech.edu/
-        # link_text: boringcompany.com
-        sub_title: Adjunct Professor
-        caption: Jan 2018 – April 2018
-        quote: >
+      - layout:             left
+        title:              DigiPen Institute of Technology, Redmond
+        link:               https://www.lwtech.edu/
+        # link_text:        boringcompany.com
+        sub_title:          Adjunct Professor
+        caption:            Jan 2018 – April 2018
+        quote:              >
         description:
           Responsible for teaching Electrical Circuits, curriculum design and evaluation
 
-    content:
-      - layout: left
-        title: Delhi Technological University, India
-        link: http://www.dtu.ac.in/
-        # link_text: boringcompany.com
-        sub_title: Assistant Professor
-        caption: July 2014 – April 2016
-        quote: >
+      - layout:             left
+        title:              Delhi Technological University, India
+        link:               http://www.dtu.ac.in/
+        # link_text:        boringcompany.com
+        sub_title:          Assistant Professor
+        caption:            July 2014 – April 2016
+        quote:              >
         description:
           Taught and instructed labs for Basic Electrical Engineering, Electrical and Electronics Measurement and Measuring Instrument, Instrumentation and Electronics Devices and Circuits.
 
-   content:
-     - layout: left
-       title: Institute of Engineering and Technology, India
-       link: https://www.ietlucknow.ac.in/
-       # link_text: boringcompany.com
-       sub_title: Assistant Professor
-       caption: August 2013 – June 2014
-       quote: >
+     - layout:              left
+       title:               Institute of Engineering and Technology, India
+       link:                https://www.ietlucknow.ac.in/
+       # link_text:         boringcompany.com
+       sub_title:           Assistant Professor
+       caption:             August 2013 – June 2014
+       quote:               >
        description:
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+  - title:                  Education # Title for the section
+    layout:                 list # Type of content section (list/text)
     content:
-      - layout: left
-        title: University of Washington, Seattle, WA
-        caption: 2020 - 2024
+      - layout:             left
+        title:              University of Washington, Seattle, WA
+        caption:            2020 - 2024
         sub_title: PhD – Electrical and Computer Engineering (Cumulative GPA: 3.88)
-        quote: >
-        description: | # this will include new lines to allow paragraphs
+        quote:              >
+        description:        | # this will include new lines to allow paragraphs
            Relevant Coursework: Introduction to statistical Learning, Continuous Space Language Processing, Introduction to Qualitative Research Methods, Natural Language Processing
 
-    content:
-      - layout: left
-        title: Gautam Buddha University, India
-        caption: 2011 - 2013
+      - layout:             left
+        title:              Gautam Buddha University, India
+        caption:            2011 - 2013
         sub_title: Master of Technology in Power Systems (GPA: 3.54)
-        quote: >
+        quote:              >
         description:
 
-    content:
-      - layout: left
-        title: Gautam Buddh Technical University, India
-        caption: 2006 - 2010
+      - layout:             left
+        title:              Gautam Buddh Technical University, India
+        caption:            2006 - 2010
         sub_title: Bachelor of Technology in Electrical and Electronics Engineering (GPA: 3.48)
-        quote: >
+        quote:              >
         description:
 
-  - title: Technical Skills
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Computer Languages: Python, R, Java, MATLAB, LABVIEW, and Assembly language
-      Software & Tools: Linux, Pytorch/TensorFlow/Keras, MySQL, NLTK, SPSS Statistics, KI-CAD, Tableau, Allen Bradley PLC Programming (RS Logix), Altera Quartus II software for VHLD, Multi-Sim, Wonderware-Intouch SCADA software
-      Natural Languages: Bilingual in English and Hindi
+  - title:                  Technical Skills
+    layout:                 text
+    content:                | # this will include new lines to allow paragraphs
+      Computer Languages:   Python, R, Java, MATLAB, LABVIEW, and Assembly language
+      Software & Tools:     Linux, Pytorch/TensorFlow/Keras, MySQL, NLTK, SPSS Statistics, KI-CAD, Tableau, Allen Bradley PLC Programming (RS Logix), Altera Quartus II software for VHLD, Multi-Sim, Wonderware-Intouch SCADA software
+      Natural Languages:    Bilingual in English and Hindi
 
-  - title: Papers
-    layout: text
-    content: |
+  - title:                  Papers
+    layout:                 text
+    content:                |
     •	Kardam, N., Misra, S., Anderson, M., Bai, Z., & Wilson, D. (2021, July 26-29).  What do Students Need from other Students? Peer Support during Remote Learning. ASEE (American Society for Engineering Education) Annual Conference and Exposition, Long Beach, California (restructured to Virtual Conference due to COVID-19).
     •	Anderson, M., Bai, Z., Misra, S., Kardam, N., & Wilson, D. (2021, July 26-29).  What Should Teachers Do? Faculty and TA Support during Remote Learning.  ASEE (American Society for Engineering Education) Annual Conference and Exposition, Long Beach, California (restructured to Virtual Conference due to COVID-19).
     •	Bai, Z., Anderson, M., Kardam, N.,& Wilson, D. (2021, July 26-29). Differences in Perceptions of Instructional Support between U.S. and International Students Before and During COVID-19.  ASEE (American Society for Engineering Education) Annual Conference and Exposition, Long Beach, California (restructured to Virtual Conference due to COVID-19).
@@ -179,15 +171,15 @@ content:
 
 
 # Footer
-footer_show_references: true
-# references_title: References on request (Override references text)
+footer_show_references:     true
+# references_title:         References on request (Override references text)
 
 # Build settings
-remote_theme: sproogen/resume-theme
+remote_theme:               sproogen/resume-theme
 
 sass:
-  sass_dir: _sass
-  style: compressed
+  sass_dir:                 _sass
+  style:                    compressed
 
 plugins:
  - jekyll-seo-tag
