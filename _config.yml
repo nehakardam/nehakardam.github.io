@@ -65,7 +65,7 @@ content:
           A single dense output layer and a multi-layer dense output layer model is used to predict peer support labels based on cooperative learning framework. Sentiment analysis is also conducted to determine students' feelings toward faculty support using NLPTK, Textblob, and Flair.
 
         title:            Predicting students’ engagement using machine learning techniques
-        link:             github.com/sproogen
+        link:             github.com/nehakardam
         # link_text:      Project Website
         additional_links:
           - title:        sproogen/modern-resume-theme
