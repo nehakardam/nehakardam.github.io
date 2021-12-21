@@ -22,14 +22,19 @@ linkedin_username: neha-kardam
 # about_title: About Me
 about_profile_image: images/Neha_June2021.png
 about_content: | # this will include new lines to allow paragraphs
-  Interdisciplinary researcher with experience in using statistics, predictive analytics, mixed methods research and applying machine learning techniques in data driven research. Research interests include understanding and applying natural language processing techniques in real world problems.
+  Hi there! I'm a second-year PhD student in the Department of Electrical and Computer Engineering at the University of Washington, Seattle.
+
+  I am an interdisciplinary researcher with experience in using statistics, predictive analytics, mixed methods research and applying machine learning techniques in data driven research.
+  My research interests include understanding and applying natural language processing (NLP) techniques in real world problems.
+
+  I am passionate about using NLP in engineering education research (EER), with the goal of improving pedagogy and diversity in engineering education.
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout:           top-middle
-        title:            Super awesome project
+        title:            Exploring Natural Language Processing to Analyze Short Answer Survey Data in Engineering Education Research
         link:             github.com/sproogen
         # link_text:      Project Website
         additional_links:
@@ -40,11 +45,10 @@ content:
           #   icon:       fab fa-github
           #   url:        Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote:            >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+
         description:      | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-      - layout:           top-middle
-        title:            Super awesome project
+          Textual survey data is processed manually, researchers have to invest significant time and effort to evaluating such text survey collections. While in-depth manual research of text survey data yields significant outcomes, some instructors or administrators may benefit from an automated system that can uncover trends and offer broader overviews for selected datasets in less time and resource-efficient ways. This study investigates using Natural Language Processing (Topic modeling: Latent Dirichlet Allocation and Non-negative Matrix Factorization) techniques to extract labels from student short answer survey responses in the context of Engineering.
+        title:            Using Natural Language Processing techniques in Engineering Education Research
         link:             github.com/sproogen
         # link_text:      Project Website
         additional_links:
@@ -55,9 +59,9 @@ content:
           #   icon:       fab fa-github
           #   url:        Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote:            >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+
         description:      | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          A single dense output layer and a multi-layer dense output layer model is used to predict peer support labels based on cooperative learning framework. Sentiment analysis is also conducted to determine students' feelings toward faculty support using NLPTK, Textblob, and Flair.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
