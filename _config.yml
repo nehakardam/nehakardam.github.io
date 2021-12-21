@@ -16,7 +16,7 @@ darkmode: false
 
 # Social links
 github_username:  nehakardam
-linkedin_username: neha-kardam
+linkedin_username: https://www.linkedin.com/in/neha-kardam-a3535555/
 
 # About Section
 # about_title: About Me
@@ -35,7 +35,7 @@ content:
     content:
       - layout:           top-middle
         title:            Exploring Natural Language Processing to Analyze Short Answer Survey Data in Engineering Education Research
-        link:             github.com/sproogen
+        link:             github.com/nehakardam
         # link_text:      Project Website
         additional_links:
           - title:        sproogen/modern-resume-theme
@@ -48,8 +48,9 @@ content:
 
         description:      | # this will include new lines to allow paragraphs
           Textual survey data is processed manually, researchers have to invest significant time and effort to evaluating such text survey collections. While in-depth manual research of text survey data yields significant outcomes, some instructors or administrators may benefit from an automated system that can uncover trends and offer broader overviews for selected datasets in less time and resource-efficient ways. This study investigates using Natural Language Processing (Topic modeling: Latent Dirichlet Allocation and Non-negative Matrix Factorization) techniques to extract labels from student short answer survey responses in the context of Engineering.
+
         title:            Using Natural Language Processing techniques in Engineering Education Research
-        link:             github.com/sproogen
+        link:             github.com/nehakardam
         # link_text:      Project Website
         additional_links:
           - title:        sproogen/modern-resume-theme
@@ -62,6 +63,21 @@ content:
 
         description:      | # this will include new lines to allow paragraphs
           A single dense output layer and a multi-layer dense output layer model is used to predict peer support labels based on cooperative learning framework. Sentiment analysis is also conducted to determine students' feelings toward faculty support using NLPTK, Textblob, and Flair.
+
+        title:            Predicting students’ engagement using machine learning techniques
+        link:             github.com/sproogen
+        # link_text:      Project Website
+        additional_links:
+          - title:        sproogen/modern-resume-theme
+            icon:         fab fa-github
+            url:          github.com/sproogen/modern-resume-theme
+          # - title:      Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon:       fab fa-github
+          #   url:        Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote:            >
+
+        description:      | # this will include new lines to allow paragraphs
+          Machine learning methods are used to forecast students' academic support and course level engagement in both traditional and remote learning environments. The Ordinary Least Squares method of linear regression is used as a baseline for comparison with other models (Ridge, Lasso, Elastic, GLR Poisson’s, GLR Gamma, Epsilon SVM, Nu SVM, Stochastic Gradient Descent). The mean square error for the test data serves as the evaluation criterion.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
