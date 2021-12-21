@@ -101,7 +101,7 @@ content:
       - layout: left
         title: University of Washington, Seattle, WA
         caption: 2020 - 2024
-        sub_title: PhD Electrical and Computer Engineering (Cumulative GPA: 3.88)
+        sub_title: PhD Electrical and Computer Engineering 
         quote: >
           Founded in 1861, Washington is one of the oldest universities on the West Coast
         description: | # this will include new lines to allow paragraphs
