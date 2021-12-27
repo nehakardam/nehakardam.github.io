@@ -111,7 +111,9 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       Computer Languages:   Python, R, Java, MATLAB, LABVIEW, and Assembly language
+
       Software & Tools:     Linux, Pytorch/TensorFlow/Keras, MySQL, NLTK, SPSS Statistics, KI-CAD, Tableau, Allen Bradley PLC Programming (RS Logix), Altera Quartus II software for VHLD, Multi-Sim, Wonderware-Intouch SCADA software
+
       Natural Languages:    Bilingual in English and Hindi
 
 # Footer
