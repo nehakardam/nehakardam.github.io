@@ -34,6 +34,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout:           top-middle
+
         title:            Exploring Natural Language Processing to Analyze Short Answer Survey Data in Engineering Education Research
         link:             github.com/nehakardam
         # link_text:      Project Website
